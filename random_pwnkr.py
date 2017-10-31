@@ -1,6 +1,6 @@
-from pwn import *
 from ctypes import *
 
+from pwn import *
 
 s = ssh(host='pwnable.kr',
         port=2222,
@@ -9,6 +9,6 @@ s = ssh(host='pwnable.kr',
 
 libc = CDLL("libc.so.6")
 
-sh=s.process('random')
+sh = s.process(['random'])
 sh.sendline(str(libc.rand()^0xdeadbeef))
 print sh.readall()
