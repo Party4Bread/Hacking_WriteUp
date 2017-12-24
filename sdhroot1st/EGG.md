@@ -3,7 +3,9 @@
 ###### 863p
 
 >게임을 하는데 캐릭터가 죽어버렸다
+>
 >어서 빨리 살려서 다시 게임을 하자
+>
 >hint : xor
 >
 >[Link](https://drive.google.com/uc?export=download&id=1fyapi8Y_YLIFlQLlXC35ajZOopv4R3sq)
